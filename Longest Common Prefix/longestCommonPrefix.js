@@ -15,3 +15,11 @@ var longestCommonPrefix = function (strs) {
   }
   return newStr
 }
+
+const result1 = longestCommonPrefix(["flower", "flower", "flower", "flower"])
+
+console.log(result1)
+
+const result2 = longestCommonPrefix(["flower", "flow", "flight"])
+
+console.log(result2)
